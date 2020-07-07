@@ -36,6 +36,19 @@ Through Swagger Client or Postman, we can also run
 - Updating address of specific user
 - Search active/ inactive user by `Id`
 
+## Create an Azure Database for PostgreSQL - Single Server using the AzureCLI
+
+<https://docs.microsoft.com/en-us/azure/postgresql/quickstart-create-server-database-azure-cli>
+
+**And Note Down**
+
+- AZ_POSTGRES_SERVER=azsc-postgres-server
+- AZ_LOCAL_IP_ADDRESS=183.83.240.53
+- AZ_POSTGRESQL_ADMIN_USER=postgres
+- AZ_POSTGRESQL_ADMIN_PASSWORD=Im4mPalo#
+- AZ_DATABASE_NAME=azsc-demo
+
+
 # TODO
 - [x] Spring Boot Kotlin Application
 - [x] Deploy to Azure Spring Cloud
