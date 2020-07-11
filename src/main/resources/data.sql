@@ -1,24 +1,3 @@
-DROP TABLE IF EXISTS user_directory cascade;
-
-CREATE TABLE user_directory (
-  id VARCHAR(250) NOT NULL PRIMARY KEY,
-  first_name VARCHAR(250) NOT NULL,
-  last_name VARCHAR(250) NOT NULL,
-  contact_number VARCHAR(250),
-  is_deleted BOOLEAN DEFAULT FALSE
-);
-
-DROP TABLE IF EXISTS address_directory;
-
-CREATE TABLE address_directory (
-  user_id VARCHAR(250) NOT NULL,
-  address_line1 VARCHAR(250),
-  address_line2 VARCHAR(250),
-  city VARCHAR(250),
-  country VARCHAR(250) NOT NULL,
-  postal_code VARCHAR(250) NOT NULL
-);
-
 INSERT INTO user_directory (id, first_name, last_name) VALUES
   ('S8823678E', 'Kylie', 'Humphrey'),
   ('S7993823H', 'Julianne', 'Henderson'),
