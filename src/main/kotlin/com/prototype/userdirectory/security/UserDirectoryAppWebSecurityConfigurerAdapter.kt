@@ -9,6 +9,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @EnableWebSecurity
 @Configuration
+//TODO This Security should move to either Gateway or AuthService
 class UserDirectoryAppWebSecurityConfigurerAdapter : WebSecurityConfigurerAdapter() {
     override fun configure(web: WebSecurity) {
         web.ignoring()
