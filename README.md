@@ -53,8 +53,9 @@ Through Swagger Client or Postman, we can also run
 - [x] Spring Boot Kotlin Application
 - [x] Deploy to Azure Spring Cloud
 - [x] Azure Database for PostgreSQL Server
-- [ ] Move Static Resources to Azure Web - App Service
-- [ ] Azure Active Directory for Authentication
+- [x] ~~Move Static Resources to Azure Web - App Service~~
+- [x] Move Static Resources to Gateway (Simplicity Sake)
+- [ ] Azure Active Directory for Authentication to Gateway
 - [ ] Gradle Build with Multiple Profiles
 
 
